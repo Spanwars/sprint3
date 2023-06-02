@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                 docker build -t gcr.io/lbg-mea-11/sprint3_sweta:v2 .
-                docker push gcr.io/lbg-mea-11/sprint3_sweta:v2 .
+                docker push gcr.io/lbg-mea-11/sprint3_sweta:v2
                 '''
             }
         }
